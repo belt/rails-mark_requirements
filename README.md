@@ -1,4 +1,30 @@
 rails-mark_requirements
 =======================
 
-expose precense-validation in a more controller-friendly manner
+expose presence-validation in a more controller-friendly manner
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'rails-mark_requirements'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install rails-mark_requirements
+
+## Usage
+
+TODO: Write usage instructions here
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
