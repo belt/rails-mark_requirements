@@ -25,19 +25,25 @@ Gem::Specification.new do |spec|
     spec.specification_version = 3
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0')
       spec.add_runtime_dependency 'activemodel', '~> 3.2.13'
+      spec.add_runtime_dependency 'rails', '~> 3.2'
       spec.add_development_dependency 'bundler', '~> 1.3'
       spec.add_development_dependency 'rake'
       spec.add_development_dependency 'rspec'
+      spec.add_development_dependency 'sqlite3'
     else
       spec.add_dependency 'activemodel', '~> 3.2.13'
+      spec.add_runtime_dependency 'rails', '~> 3.2'
       spec.add_dependency 'bundler', '~> 1.3'
       spec.add_dependency 'rake'
       spec.add_dependency 'rspec'
+      spec.add_dependency 'sqlite3'
     end
   else
     spec.add_dependency 'activemodel', '~> 3.2.13'
+    spec.add_runtime_dependency 'rails', '~> 3.2'
     spec.add_dependency 'bundler', '~> 1.3'
     spec.add_dependency 'rake'
     spec.add_dependency 'rspec'
+    spec.add_dependency 'sqlite3'
   end
 end
